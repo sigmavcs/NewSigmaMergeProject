@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "NewSigmaMergeProject/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed!\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -107,14 +107,31 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1563963598985
+    "lastSave": 1563963686801
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
       "name": "NewSigmaMergeProject",
       "url": "https://github.com/sigmavcs/NewSigmaMergeProject",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "commit": {
+            "sha": "4cf663bb14f43050be53e412ca8567d14f8c9e3a",
+            "url": "https://api.github.com/repos/sigmavcs/NewSigmaMergeProject/commits/4cf663bb14f43050be53e412ca8567d14f8c9e3a"
+          },
+          "protected": false,
+          "protection": {
+            "enabled": false,
+            "required_status_checks": {
+              "enforcement_level": "off",
+              "contexts": []
+            }
+          },
+          "protection_url": "https://api.github.com/repos/sigmavcs/NewSigmaMergeProject/branches/master/protection"
+        }
+      ]
     }
   }
 }
